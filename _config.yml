@@ -1,6 +1,6 @@
 title: golb
 tagline: A Jekyll template
-url: https://aflim.github.io/golb
+url: https://aflim.github.io
 baseurl: "/golb"
 permalink: pretty
 paginate: 10
