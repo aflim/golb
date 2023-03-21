@@ -1,0 +1,32 @@
+title: golb
+tagline: A Jekyll template
+url: https://aflim.github.io
+baseurl: /golb
+permalink: pretty
+
+# Whitelist Jekyll plugin for gh-pages
+plugins:
+  - jekyll-seo-tag
+  - jekyll-feed
+  - jekyll-sitemap
+  
+exclude:
+  - .editorconfig
+  - .git
+  - .jekyll-cache
+  - Gemfile
+  - Gemfile.lock
+  - LICENSE.md
+  - README.md
+
+# Markdown
+markdown: kramdown
+highlighter: rouge
+
+kramdown:
+  input: GFM
+  
+# Site author info
+author:
+  name: aflim
+  email: aflim@outlook.co.id
