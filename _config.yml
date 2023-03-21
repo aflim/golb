@@ -9,6 +9,7 @@ plugins:
   - jekyll-seo-tag
   - jekyll-feed
   - jekyll-sitemap
+  - jekyll-paginate
   
 exclude:
   - .editorconfig
@@ -30,3 +31,4 @@ kramdown:
 author:
   name: aflim
   email: aflim@outlook.co.id
+  image: ""
