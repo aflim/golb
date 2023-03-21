@@ -3,7 +3,7 @@ tagline: A Jekyll template
 url: https://aflim.github.io
 baseurl: "/golb"
 permalink: pretty
-paginate: 10
+paginate: 12
 
 # Whitelist Jekyll plugin for gh-pages
 plugins:
