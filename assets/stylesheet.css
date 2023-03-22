@@ -105,6 +105,7 @@ body {
   line-height: var(--line-height-4);
   color: var(--ink-1);
   background-color: var(--bg-1);
+  overflow-wrap: word-break;
   
   @media (min-width: var(--breakpoint-sm)) {
     font-size: calc(var(--font-size) * 1.5 );
