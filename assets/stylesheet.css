@@ -165,7 +165,7 @@ ul,
 ol {
   margin-block-start: 0;
   margin-block-end: 1em;
-  padding-inline-start: var(--spacer-2);
+  /* padding-inline-start: var(--spacer-2); */
 }
 
 
