@@ -134,7 +134,7 @@ h4,
 h5,
 h6 {
   margin-block-start: 0;
-  margin-block-end: .5em;
+  margin-block-end: .25em;
   line-height: var(--line-height-2);
   font-weight: 700;
 }
@@ -173,12 +173,18 @@ dd {
   margin-bottom: .25em;
 }
 
+ul li,
+ol li,
+dl dt {
+  margin-inline: 0;
+}
+
 hr {
   position: relative;
   margin-block: var(--spacer-2);
   margin-inline: 0;
   border: 0;
-  border-block-start: 1px solid var(--ink-1);
+  border-block-start: 1px solid red;
 }
 
 
