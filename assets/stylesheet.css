@@ -110,7 +110,7 @@ body {
     font-size: calc(var(--font-size) + 4px );
   }
   
-  @media (min-width: var(--breakpoint-lg)) {
+  @media (min-width: var(--breakpoint-md)) {
     font-size: calc(var(--font-size) + 6px );
   }
 }
@@ -212,7 +212,7 @@ th {
   border-block-end-width: 1px;
 }
 
-tr tr {
+tr {
   border-color: inherit;
   border-style: solid;
   border-width: 0;
@@ -229,12 +229,12 @@ thead th {
 
 /* - */
 .container {
-  max-width: 45em;
+  max-width: 45ch;
   padding-inline: var(--spacer-1);
   margin-inline: auto;
   
   @media (min-width: var(--breakpoint-sm)) {
-    max-width: 75em;
+    max-width: 75ch;
   }
 }
 
