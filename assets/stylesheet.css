@@ -164,7 +164,6 @@ p {
 ul, ol, dl {
   margin-block-start: 0;
   margin-block-end: 1em;
-  padding-inline: 0;
 }
 
 dt {
