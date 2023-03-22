@@ -172,17 +172,6 @@ ol li + li {
   margin-block-end: .5em;
 }
 
-ul li::before,
-ol li::before {
-  padding-inline-start: 1em;
-}
-
-ul li::before {
-  content: "•";
-  padding-inline-start: 1em;
-  font-size: 1em;
-}
-
 dt {
   font-weight: bolder;
 }
