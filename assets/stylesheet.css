@@ -106,12 +106,12 @@ body {
   color: var(--ink-1);
   background-color: var(--bg-1);
   
-  @media (min-width: var(--breakpoint-md)) {
-    font-size: calc(var(--font-size) + 2 );
+  @media (min-width: var(--breakpoint-sm)) {
+    font-size: calc(var(--font-size) + 2px );
   }
   
   @media (min-width: var(--breakpoint-lg)) {
-    font-size: calc(var(--font-size) + 4 );
+    font-size: calc(var(--font-size) + 4px );
   }
 }
 
@@ -201,7 +201,7 @@ hr {
   padding-inline: var(--spacer-2);
   margin-inline: auto;
   
-  @media (min-width: var(--breakpoint-md)) {
+  @media (min-width: var(--breakpoint-sm)) {
     max-width: 75ch;
   }
 }
