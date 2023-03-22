@@ -167,6 +167,11 @@ ul, ol, dl {
   padding-inline-start: 0;
 }
 
+ul li + li,
+ol li + li {
+  margin-block-end: .5em;
+}
+
 ul li::before,
 ol li::before {
   padding-inline-start: 1em;
