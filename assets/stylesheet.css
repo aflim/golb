@@ -6,13 +6,12 @@
   --lightness: 50%;
   
   /* light */
-  --bg-dark-1: var(--hue) 5% 85%;
-  --bg-dark-2: var(--hue) 10% 90%;
-  --bg-dark-3: var(--hue) 15% 95%;
-  --ink-dark-1: var(--hue) var(--saturation) var(--lightness);
-  --ink-dark-2: var(--hue) var(--saturation) 10%;
-  --ink-dark-3: var(--hue) 30% 30%;
-  
+  --bg-light-1: var(--hue) 5% 85%;
+  --bg-light-2: var(--hue) 10% 90%;
+  --bg-light-3: var(--hue) 15% 95%;
+  --ink-light-1: var(--hue) var(--saturation) var(--lightness);
+  --ink-light-2: var(--hue) var(--saturation) 10%;
+  --ink-light-3: var(--hue) 30% 30%;
   
   /* dark */
   --bg-dark-1: var(--hue) 10% 5%;
@@ -21,14 +20,6 @@
   --ink-dark-1: var(--hue) calc(var(--saturation) / 2) calc(var(--lightness) / 1.5);
   --ink-dark-2: var(--hue) 15% 85%;
   --ink-dark-3: var(--hue) 5% 65%;
-  
-  color-scheme: light;
-  --bg-1: var(--bg-dark-1);
-  --bg-2: var(--bg-dark-2);
-  --bg-3: var(--bg-dark-3);
-  --ink-1: var(--ink-dark-1);
-  --ink-2: var(--ink-dark-2);
-  --ink-3: var(--ink-dark-3);
   
   /* breakpoint */
   --breakpoint-sm: 576px;
@@ -52,4 +43,51 @@
   
   --font-system: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   --font-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+
+  /* default color scheme */
+  color-scheme: light;
+  --bg-1: var(--bg-light-1);
+  --bg-2: var(--bg-light-2);
+  --bg-3: var(--bg-light-3);
+  --ink-1: var(--ink-light-1);
+  --ink-2: var(--ink-light-2);
+  --ink-3: var(--ink-light-3);
 }
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    color-scheme: dark;
+    --bg-1: var(--bg-dark-1);
+    --bg-2: var(--bg-dark-2);
+    --bg-3: var(--bg-dark-3);
+    --ink-1: var(--ink-dark-1);
+    --ink-2: var(--ink-dark-2);
+    --ink-3: var(--ink-dark-3);
+  }
+}
+
+[color-scheme="light"] {
+  color-scheme: light;
+  --bg-1: var(--bg-light-1);
+  --bg-2: var(--bg-light-2);
+  --bg-3: var(--bg-light-3);
+  --ink-1: var(--ink-light-1);
+  --ink-2: var(--ink-light-2);
+  --ink-3: var(--ink-light-3);
+}
+
+[color-scheme="dark"] {
+  color-scheme: dark;
+  --bg-1: var(--bg-dark-1);
+  --bg-2: var(--bg-dark-2);
+  --bg-3: var(--bg-dark-3);
+  --ink-1: var(--ink-dark-1);
+  --ink-2: var(--ink-dark-2);
+  --ink-3: var(--ink-dark-3);
+}
+
+
+
+
+
+
