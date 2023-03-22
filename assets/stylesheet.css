@@ -135,6 +135,8 @@ h3,
 h4,
 h5,
 h6 {
+  margin-block-start: 0;
+  margin-block-end: .5em;
   line-height: var(--line-height-2);
   font-weight: 700;
 }
@@ -155,8 +157,31 @@ h6 {
   font-size: var(--type-scale-md);
 }
 
+p {
+  margin-block-start: 0;
+  margin-block-end: .5em;
+}
 
+ul, ol, dl {
+  margin-block-start: 0;
+  margin-block-end: 1em;
+}
 
+dt {
+  font-weight: bolder;
+}
+
+dd {
+  margin-bottom: .25em;
+}
+
+hr {
+  position: relative;
+  margin-block: var(--spacer-2);
+  margin-inline: 0;
+  border: 0;
+  border-block-start: 1px solid var(--ink-1);
+}
 
 
 
