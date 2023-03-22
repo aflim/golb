@@ -167,8 +167,8 @@ ul, ol, dl {
   padding-inline-start: 0;
 }
 
-ul li + li,
-ol li + li {
+ul li,
+ol li {
   margin-block-end: .5em;
 }
 
