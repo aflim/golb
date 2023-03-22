@@ -202,7 +202,7 @@ table {
   width: 100%;
   margin-block-end: 1em;
   border-collapse: collapse;
-  border: 0 solid var(--ink-3);
+  border: 1px solid var(--ink-3);
 }
 
 td,
