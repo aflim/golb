@@ -167,14 +167,11 @@ ul, ol, dl {
   padding-inline-start: 0;
 }
 
-ul li,
-ol li {
-  list-style-position: outside;
-}
-
 ul li::before,
 ol li::before {
+  content: "•";
   padding-inline-start: 1em;
+  font-size: 1em;
 }
 
 dt {
