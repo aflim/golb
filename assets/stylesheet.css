@@ -107,11 +107,11 @@ body {
   background-color: var(--bg-1);
   
   @media (min-width: var(--breakpoint-sm)) {
-    font-size: calc(var(--font-size) + 4px );
+    font-size: calc(var(--font-size) * 1.5 );
   }
   
   @media (min-width: var(--breakpoint-md)) {
-    font-size: calc(var(--font-size) + 6px );
+    font-size: calc(var(--font-size) * 2 );
   }
 }
 
