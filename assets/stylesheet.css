@@ -10,8 +10,8 @@
   --bg-light-1: hsl(var(--hue) 5% 85%);
   --bg-light-2: hsl(var(--hue) 10% 90%);
   --bg-light-3: hsl(var(--hue) 15% 95%);
-  --ink-light-1: hsl(var(--hue) var(--saturation) 20%);
-  --ink-light-2: hsl(var(--hue) var(--saturation) 10%);
+  --ink-light-1: hsl(var(--hue) 50% 20%);
+  --ink-light-2: hsl(var(--hue) 40% 10%);
   --ink-light-3: hsl(var(--hue) 30% 30%);
   
   /* dark */
@@ -173,15 +173,6 @@ dt {
 
 dd {
   margin-block-end: .5em;
-}
-
-ul li,
-ol li {
-  list-style-position: inside;
-  
-  @media (min-width: var(--breakpoint-md)) {
-    list-style-position: outside;
-  }
 }
 
 dl dd {
