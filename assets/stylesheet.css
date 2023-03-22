@@ -169,7 +169,7 @@ ul, ol, dl {
 
 ul li,
 ol li {
-  list-style-position: inside;
+  list-style-position: outside;
 }
 
 ul li::before,
