@@ -213,6 +213,13 @@ th {
   border-block-end-width: 1px;
 }
 
+tr tr {
+  border-color: inherit;
+  border-style: solid;
+  border-width: 0;
+  border-inline-start-width: 1px;
+}
+
 th {
   text-align: left;
 }
