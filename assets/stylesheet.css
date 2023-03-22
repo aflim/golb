@@ -230,7 +230,7 @@ thead th {
   margin-inline: auto;
   
   @media (min-width: var(--breakpoint-sm)) {
-    max-width: 75ch;
+    max-width: 85ch;
   }
 }
 
