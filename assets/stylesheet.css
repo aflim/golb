@@ -177,6 +177,16 @@ ul li,
 ol li,
 dl dd {
   margin-inline: 0;
+  padding-inline: 0;
+}
+
+ul li,
+ol li {
+  list-style-position: inside;
+  
+  @media (min-width: var(--breakpoint-md)) {
+    list-style-position: outside;
+  }
 }
 
 hr {
