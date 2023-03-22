@@ -193,5 +193,15 @@ hr {
   border-block-start: 1px solid var(--ink-1);
 }
 
+/* - */
+.container {
+  max-width: 45ch;
+  padding-inline: var(--spacer-2);
+  margin-inline: auto;
+  
+  @media (min-width: var(--breakpoint-md)) {
+    max-width: 75ch;
+  }
+}
 
 
