@@ -223,12 +223,12 @@ thead th {
 
 /* - */
 .container {
-  max-width: 45ch;
-  padding-inline: var(--spacer-2);
+  max-width: 45em;
+  padding-inline: var(--spacer);
   margin-inline: auto;
   
   @media (min-width: var(--breakpoint-sm)) {
-    max-width: 75ch;
+    max-width: 75em;
   }
 }
 
