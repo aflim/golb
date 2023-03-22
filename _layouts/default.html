@@ -12,6 +12,8 @@
       {% endif %}
     </title>
     
+    <meta name="description" content="{% if page.description %}{{ page.description }}{% else %}{{ page.title }}{% endif %}">
+    
     <link rel="stylesheet" href="{{ '/assets/normalize.css' | relative_url }}">
     <link rel="stylesheet" href="{{ '/assets/stylesheet.css' | relative_url }}">
     
