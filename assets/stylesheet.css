@@ -199,7 +199,7 @@ table {
   width: 100%;
   margin-block-end: 1em;
   border-collapse: collapse;
-  border: 0;
+  border: 0 solid var(--ink-3);
 }
 
 td,
@@ -210,13 +210,6 @@ th {
   border-style: solid;
   border-width: 0;
   border-block-end-width: 1px;
-}
-
-tr {
-  border-color: inherit;
-  border-style: solid;
-  border-width: 0;
-  border-inline-start-width: 1px;
 }
 
 th {
