@@ -107,11 +107,11 @@ body {
   background-color: var(--bg-1);
   
   @media (min-width: var(--breakpoint-sm)) {
-    font-size: calc(var(--font-size) + 2px );
+    font-size: calc(var(--font-size) + 4px );
   }
   
   @media (min-width: var(--breakpoint-lg)) {
-    font-size: calc(var(--font-size) + 4px );
+    font-size: calc(var(--font-size) + 6px );
   }
 }
 
@@ -230,7 +230,7 @@ thead th {
 /* - */
 .container {
   max-width: 45em;
-  padding-inline: var(--spacer);
+  padding-inline: var(--spacer-1);
   margin-inline: auto;
   
   @media (min-width: var(--breakpoint-sm)) {
