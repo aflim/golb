@@ -175,7 +175,7 @@ dd {
 
 ul li,
 ol li,
-dl dt {
+dl dd {
   margin-inline: 0;
 }
 
@@ -184,7 +184,7 @@ hr {
   margin-block: var(--spacer-2);
   margin-inline: 0;
   border: 0;
-  border-block-start: 1px solid red;
+  border-block-start: 2px solid red;
 }
 
 
