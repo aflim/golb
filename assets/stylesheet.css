@@ -162,12 +162,11 @@ p {
 }
 
 ul, 
-ol {
-  padding: 0;
+ol,
+dl {
   margin-block-start: 0;
   margin-block-end: 1em;
 }
-
 
 ul li,
 ol li {
