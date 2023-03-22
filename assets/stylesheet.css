@@ -7,20 +7,20 @@
   --lightness: 50%;
   
   /* light */
-  --bg-light-1: var(--hue) 5% 85%;
-  --bg-light-2: var(--hue) 10% 90%;
-  --bg-light-3: var(--hue) 15% 95%;
-  --ink-light-1: var(--hue) var(--saturation) var(--lightness);
-  --ink-light-2: var(--hue) var(--saturation) 10%;
-  --ink-light-3: var(--hue) 30% 30%;
+  --bg-light-1: hsl(var(--hue) 5% 85%);
+  --bg-light-2: hsl(var(--hue) 10% 90%);
+  --bg-light-3: hsl(var(--hue) 15% 95%);
+  --ink-light-1: hsl(var(--hue) var(--saturation) var(--lightness));
+  --ink-light-2: hsl(var(--hue) var(--saturation) 10%);
+  --ink-light-3: hsl(var(--hue) 30% 30%);
   
   /* dark */
-  --bg-dark-1: var(--hue) 10% 5%;
-  --bg-dark-2: var(--hue) 10% 10%;
-  --bg-dark-3: var(--hue) 10% 15%;
-  --ink-dark-1: var(--hue) calc(var(--saturation) / 2) calc(var(--lightness) / 1.5);
-  --ink-dark-2: var(--hue) 15% 85%;
-  --ink-dark-3: var(--hue) 5% 65%;
+  --bg-dark-1: hsl(var(--hue) 10% 5%);
+  --bg-dark-2: hsl(var(--hue) 10% 10%);
+  --bg-dark-3: hsl(var(--hue) 10% 15%);
+  --ink-dark-1: hsl(var(--hue) calc(var(--saturation) / 2) calc(var(--lightness) / 1.5));
+  --ink-dark-2: hsl(var(--hue) 15% 85%);
+  --ink-dark-3: hsl(var(--hue) 5% 65%);
   
   /* base */
   --font-size: 16px;
@@ -53,6 +53,7 @@
   --font-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
 
   /* default color scheme */
+  color-scheme: light;
   --bg-1: var(--bg-light-1);
   --bg-2: var(--bg-light-2);
   --bg-3: var(--bg-light-3);
@@ -171,7 +172,7 @@ dt {
 }
 
 dd {
-  margin-bottom: .25em;
+  margin-block-end: .5em;
 }
 
 ul li,
