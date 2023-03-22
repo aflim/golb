@@ -145,7 +145,7 @@ h1 {
 }
 
 h2 {
-  margin-block-start: .5em;
+  padding-block-start: .25em;
   font-size: var(--type-scale-lg);
 }
 
@@ -154,7 +154,7 @@ h3,
 h4,
 h5,
 h6 {
-  margin-block-start: .5em;
+  padding-block-start: .25em;
   font-size: var(--type-scale-md);
 }
 
