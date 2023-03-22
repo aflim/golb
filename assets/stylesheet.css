@@ -163,14 +163,13 @@ p {
 
 ul, 
 ol {
+  padding: 0;
   margin-block-start: 0;
   margin-block-end: 1em;
-  /* padding-inline-start: var(--spacer-2); */
 }
 
 
-ul li,
-ol li {
+li li {
   margin-inline-start: 1em;
   margin-block-end: .5em;
 }
