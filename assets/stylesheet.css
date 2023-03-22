@@ -106,6 +106,7 @@ body {
   color: var(--ink-1);
   background-color: var(--bg-1);
   overflow-wrap: word-break;
+  word-break: break-all;
   
   @media (min-width: var(--breakpoint-sm)) {
     font-size: calc(var(--font-size) * 1.5 );
@@ -192,7 +193,7 @@ hr {
   margin-block: var(--spacer-2);
   margin-inline: 0;
   border: 0;
-  border-block-start: 1px solid var(--ink-1);
+  border-block-start: 1px solid var(--ink-2);
 }
 
 table {
@@ -205,7 +206,7 @@ table {
 td,
 th {
   padding-inline: .5em;
-  padding-block: .25em;
+  padding-block: .5em;
   border-color: inherit;
   border-style: solid;
   border-width: 0;
@@ -222,12 +223,12 @@ thead th {
 
 /* - */
 .container {
-  max-width: 45em;
+  max-width: 480px;
   padding-inline: var(--spacer-1);
   margin-inline: auto;
   
   @media (min-width: var(--breakpoint-sm)) {
-    max-width: 60em;
+    max-width: 720px;
   }
 }
 
