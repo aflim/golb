@@ -167,6 +167,11 @@ ul, ol, dl {
   padding-inline-start: 0;
 }
 
+ul li,
+ol li {
+  list-style-position: inside;
+}
+
 dt {
   font-weight: bolder;
 }
