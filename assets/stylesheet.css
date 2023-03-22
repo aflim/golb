@@ -163,6 +163,7 @@ p {
 ul, ol, dl {
   margin-block-start: 0;
   margin-block-end: 1em;
+  padding-inline: 0;
 }
 
 dt {
@@ -171,13 +172,6 @@ dt {
 
 dd {
   margin-bottom: .25em;
-}
-
-ul li,
-ol li,
-dl dd {
-  margin-inline: 0;
-  padding-inline: 0;
 }
 
 ul li,
@@ -194,7 +188,7 @@ hr {
   margin-block: var(--spacer-2);
   margin-inline: 0;
   border: 0;
-  border-block-start: 2px solid red;
+  border-block-start: 2px solid var(--ink-1);
 }
 
 
