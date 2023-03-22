@@ -195,6 +195,29 @@ hr {
   border-block-start: 1px solid var(--ink-1);
 }
 
+table {
+  width: 100%;
+  margin-block-end: 1em;
+  border-collapse: collapse;
+  border: 0;
+}
+
+td,
+th {
+  border-color: inherit;
+  border-style: solid;
+  border-width: 0;
+  border-block-end-width: 1px;
+}
+
+th {
+  text-align: left;
+}
+
+thead th {
+  border-block-end-color: currentColor;
+}
+
 /* - */
 .container {
   max-width: 45ch;
