@@ -1,6 +1,7 @@
 /* stylesheet.css */
 
 :root {
+  /* base color swatches */
   --hue: 200;
   --saturation: 100%;
   --lightness: 50%;
@@ -21,26 +22,33 @@
   --ink-dark-2: var(--hue) 15% 85%;
   --ink-dark-3: var(--hue) 5% 65%;
   
+  /* base */
+  --font-size: 16px;
+  
   /* breakpoint */
   --breakpoint-sm: 576px;
   --breakpoint-md: 768px;
   --breakpoint-lg: 992px;
   
+  /* spacer */
   --spacer-1: 1rem;
   --spacer-2: calc(var(--spacer-1) * 1.5);
   --spacer-3: calc(var(--spacer-1) * 3);
   
+  /* line height */
   --line-height-1: 1.1;
   --line-height-2: 1.2;
   --line-height-3: 1.3;
   --line-height-4: 1.4;
   
+  /* type scale */
   --type-scale-xs: .8em;
   --type-scale-sm: 1em;
   --type-scale-md: 1.2em;
   --type-scale-lg: 1.5em;
   --type-scale-xl: 1.8em;
   
+  /* font family */
   --font-system: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   --font-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
 
@@ -54,6 +62,7 @@
   --ink-3: var(--ink-light-3);
 }
 
+/* dark color scheme via browser/os */
 @media (prefers-color-scheme: dark) {
   :root {
     color-scheme: dark;
@@ -66,6 +75,7 @@
   }
 }
 
+/* light color scheme via data attribut */
 [color-scheme="light"] {
   color-scheme: light;
   --bg-1: var(--bg-light-1);
@@ -76,6 +86,7 @@
   --ink-3: var(--ink-light-3);
 }
 
+/* dark color scheme via data attribut */
 [color-scheme="dark"] {
   color-scheme: dark;
   --bg-1: var(--bg-dark-1);
@@ -86,6 +97,14 @@
   --ink-3: var(--ink-dark-3);
 }
 
+/* base style */
+body {
+  font-family: var(--font-system);
+  font-size: var(--font-size-base);
+  line-height: var(--line-height-4);
+  color: var(--ink-1);
+  background-color: var(--bg-1);
+}
 
 
 
