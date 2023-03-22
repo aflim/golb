@@ -172,6 +172,11 @@ ol li {
   list-style-position: inside;
 }
 
+ul li::before,
+ol li::before {
+  padding-inline-start: 1em;
+}
+
 dt {
   font-weight: bolder;
 }
