@@ -10,7 +10,7 @@
   --bg-light-1: hsl(var(--hue) 5% 85%);
   --bg-light-2: hsl(var(--hue) 10% 90%);
   --bg-light-3: hsl(var(--hue) 15% 95%);
-  --ink-light-1: hsl(var(--hue) var(--saturation) var(--lightness));
+  --ink-light-1: hsl(var(--hue) var(--saturation) 20%);
   --ink-light-2: hsl(var(--hue) var(--saturation) 10%);
   --ink-light-3: hsl(var(--hue) 30% 30%);
   
@@ -18,7 +18,7 @@
   --bg-dark-1: hsl(var(--hue) 10% 5%);
   --bg-dark-2: hsl(var(--hue) 10% 10%);
   --bg-dark-3: hsl(var(--hue) 10% 15%);
-  --ink-dark-1: hsl(var(--hue) calc(var(--saturation) / 2) calc(var(--lightness) / 1.5));
+  --ink-dark-1: hsl(var(--hue) 20% 95%);
   --ink-dark-2: hsl(var(--hue) 15% 85%);
   --ink-dark-3: hsl(var(--hue) 5% 65%);
   
@@ -194,7 +194,7 @@ hr {
   margin-block: var(--spacer-2);
   margin-inline: 0;
   border: 0;
-  border-block-start: 2px solid var(--ink-2);
+  border-block-start: 1px solid var(--ink-1);
 }
 
 
