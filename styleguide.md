@@ -3,7 +3,7 @@ layout: page
 title: Styleguide
 ---
 
-Vivamus sagittis lacus vel augue rutrum faucibus dolor auctor. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros.
+abcdefghijklmnopqrstuvwxyzabcdefghijklmnopqrstuvwxyz
 
 # Heading level 1
 ## Heading level 2
