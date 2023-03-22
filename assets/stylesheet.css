@@ -169,7 +169,8 @@ ol {
 }
 
 
-li li {
+ul li,
+ol li {
   margin-inline-start: 1em;
   margin-block-end: .5em;
 }
@@ -205,7 +206,7 @@ table {
 td,
 th {
   padding-inline: .5em;
-  padding-block: .25em;
+  padding-block: .5em;
   border-color: inherit;
   border-style: solid;
   border-width: 0;
