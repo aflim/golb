@@ -120,12 +120,39 @@ a {
   text-decoration: none;
 }
 a:hover,
-a:focus, {
+a:focus {
   color: red;
   text-decoration: underline;
 }
 a:visited {
-  color: purple;
+  color: yellow;
+}
+
+/* heading */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  line-height: var(--line-height-2);
+  font-weight: 700;
+}
+
+h1 {
+  font-size: var(--type-scale-xl);
+}
+
+h2 {
+  font-size: var(--type-scale-lg);
+}
+
+/* limit 3 level heading */
+h3,
+h4,
+h5,
+h6 {
+  font-size: var(--type-scale-md);
 }
 
 
