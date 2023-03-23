@@ -207,8 +207,8 @@ table {
   border: 0 solid var(--ink-3);
 }
 
-td,
-th {
+tbody td,
+tbody th {
   padding-inline: .5em;
   padding-block: .5em;
   border-color: inherit;
