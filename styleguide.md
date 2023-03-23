@@ -77,10 +77,12 @@ Image without caption
 ## Embedded video with iframe
 <figure>
   <iframe src="https://youtu.be/kdXfrMObAlA" width="1600" height="900">
+  </iframe>
 </figure>
 
 <figure>
   <iframe src="https://youtu.be/kdXfrMObAlA" width="300" height="400">
+  </iframe>
   <figcaption>With caption</figcaption>
 </figure>
 
