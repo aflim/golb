@@ -37,26 +37,15 @@ Vivamus sagittis lacus vel augue rutrum faucibus dolor auctor. Duis mollis, est 
 
 Image without caption
 <figure>
-  <img src="https://picsum.photos/200/200" alt="placeholder image 200×200">
+  <img src="https://picsum.photos/300/200" width="300" height="200" alt="placeholder image 300×200">
 </figure>
 
 <figure>
-  <img src="https://picsum.photos/1080/1080" alt="placeholder image 1080×1080">
-</figure>
-
-<figure>
-  <img src="https://picsum.photos/100/300" width="100" height="300" alt="placeholder image 200×300">
-  <figcaption>Placeholder image 100×300</figcaption>
+  <img src="https://picsum.photos/300/300" width="300" height="300" alt="placeholder image 300×300">
 </figure>
 
 <figure>
   <img src="https://picsum.photos/200/300" width="200" height="300" alt="placeholder image 200×300">
-  <figcaption>Placeholder image 200×300</figcaption>
-</figure>
-
-<figure>
-  <img src="https://picsum.photos/300/200" width="300" height="200" alt="placeholder image 300×200">
-  <figcaption>Placeholder image 300×200</figcaption>
 </figure>
 
 <figure>
@@ -81,7 +70,7 @@ Image without caption
 
 ## Embedded video with iframe
 <figure>
-  <iframe src="https://www.youtube.com/embed/kdXfrMObAlA" width="1600" height="900" frameborder="0" allowfullscreen>
+  <iframe src="https://www.youtube.com/embed/kdXfrMObAlA" width="1600" height="900" frameborder="0" allowfullscreen style="aspect-ratio: 16/9;">
   </iframe>
 </figure>
 
