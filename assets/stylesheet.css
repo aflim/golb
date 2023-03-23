@@ -113,7 +113,7 @@ body {
   
 @media (min-width: 30em) {
   body {
-    font-size: var(--font-size-md);
+    font-size: 22px;
   }
 }
 
