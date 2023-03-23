@@ -234,11 +234,11 @@ blockquote {
   color: var(--ink-2);
   border-inline-start: .25em solid var(--ink-3);
 }
-
+/*
 blockquote p:last-child {
   margin-block-end: 0;
 }
-
+*/
 /* - */
 .container {
   max-width: 45ch;
