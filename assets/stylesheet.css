@@ -31,7 +31,7 @@
   --breakpoint-lg: 992px;
   
   /* spacer */
-  --spacer-1: 1rem;
+  --spacer-1: 1em;
   --spacer-2: calc(var(--spacer-1) * 1.5);
   --spacer-3: calc(var(--spacer-1) * 3);
   
