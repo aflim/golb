@@ -33,14 +33,43 @@ Vivamus sagittis lacus vel augue rutrum faucibus dolor auctor. Duis mollis, est 
   <dd>The programming language used to build advanced Web sites and applications</dd>
 </dl>
 
+Image without caption
 <figure>
   <img src="https://picsum.photos/200/200" alt="placeholder image 200×200">
 </figure>
 
-Image with caption
+<figure>
+  <img src="https://picsum.photos/1080/1080" alt="placeholder image 1080×1080">
+</figure>
+
 <figure>
   <img src="https://picsum.photos/200/300" alt="placeholder image 200×300">
   <figcaption>Placeholder image 200×300</figcaption>
+</figure>
+
+<figure>
+  <img src="https://picsum.photos/300/200" alt="placeholder image 300×200">
+  <figcaption>Placeholder image 300×200</figcaption>
+</figure>
+
+<figure>
+  <img src="https://picsum.photos/300/400" alt="placeholder image 300×400">
+  <figcaption>Placeholder image 300×400</figcaption>
+</figure>
+
+<figure>
+  <img src="https://picsum.photos/400/300" alt="placeholder image 400×300">
+  <figcaption>Placeholder image 400×300</figcaption>
+</figure>
+
+<figure>
+  <img src="https://picsum.photos/1600/900" alt="placeholder image 1600×900">
+  <figcaption>Placeholder image 1600×900</figcaption>
+</figure>
+
+<figure>
+  <img src="https://picsum.photos/900/1600" alt="placeholder image 900×1600">
+  <figcaption>Placeholder image 900×1600</figcaption>
 </figure>
 
 ## Horizontal rule
