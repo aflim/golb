@@ -45,33 +45,38 @@ Image without caption
 </figure>
 
 <figure>
-  <img src="https://picsum.photos/200/300" alt="placeholder image 200×300">
+  <img src="https://picsum.photos/100/300" width="100" height="300" alt="placeholder image 200×300">
+  <figcaption>Placeholder image 100×300</figcaption>
+</figure>
+
+<figure>
+  <img src="https://picsum.photos/200/300" width="200" height="300" alt="placeholder image 200×300">
   <figcaption>Placeholder image 200×300</figcaption>
 </figure>
 
 <figure>
-  <img src="https://picsum.photos/300/200" alt="placeholder image 300×200">
+  <img src="https://picsum.photos/300/200" width="300" height="200" alt="placeholder image 300×200">
   <figcaption>Placeholder image 300×200</figcaption>
 </figure>
 
 <figure>
-  <img src="https://picsum.photos/300/400" alt="placeholder image 300×400">
+  <img src="https://picsum.photos/200/400" width="200" height="400" alt="placeholder image 300×400">
+  <figcaption>Placeholder image 200×400</figcaption>
+</figure>
+
+<figure>
+  <img src="https://picsum.photos/300/400" width="300" height="400" alt="placeholder image 300×400">
   <figcaption>Placeholder image 300×400</figcaption>
 </figure>
 
 <figure>
-  <img src="https://picsum.photos/400/300" alt="placeholder image 400×300">
+  <img src="https://picsum.photos/400/300" width="400" height="300" alt="placeholder image 400×300">
   <figcaption>Placeholder image 400×300</figcaption>
 </figure>
 
 <figure>
   <img src="https://picsum.photos/1600/900" alt="placeholder image 1600×900" width="1600" height="900">
   <figcaption>Placeholder image 1600×900</figcaption>
-</figure>
-
-<figure>
-  <img src="https://picsum.photos/900/1600" alt="placeholder image 900×1600" width="900" height="1600">
-  <figcaption>Placeholder image 900×1600</figcaption>
 </figure>
 
 ## Embedded video with iframe
@@ -81,7 +86,7 @@ Image without caption
 </figure>
 
 <figure>
-  <iframe src="https://www.youtube.com/embed/kdXfrMObAlA" frameborder="0">
+  <iframe src="https://www.youtube.com/embed/kdXfrMObAlA" width="1080" height="1080" frameborder="0">
   </iframe>
   <figcaption>With caption</figcaption>
 </figure>
