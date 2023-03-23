@@ -63,12 +63,12 @@ Image without caption
 </figure>
 
 <figure>
-  <img src="https://picsum.photos/1600/900" alt="placeholder image 1600×900">
+  <img src="https://picsum.photos/1600/900" alt="placeholder image 1600×900" width="1600" height="900">
   <figcaption>Placeholder image 1600×900</figcaption>
 </figure>
 
 <figure>
-  <img src="https://picsum.photos/900/1600" alt="placeholder image 900×1600">
+  <img src="https://picsum.photos/900/1600" alt="placeholder image 900×1600" width="900" height="1600">
   <figcaption>Placeholder image 900×1600</figcaption>
 </figure>
 
