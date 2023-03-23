@@ -226,9 +226,10 @@ figure {
 }
 
 blockquote {
-  padding-inline-start: .5em;
+  padding-inline: 1em;
+  margin-inline-start: 0;
   margin-block-end: 1em;
-  border-inline-start: .25em solid var(--ink-2);
+  border-inline-start: .25em solid var(--ink-3);
 }
 
 blockquote p:last-child {
