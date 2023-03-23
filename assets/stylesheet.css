@@ -111,7 +111,7 @@ body {
       -ms-text-size-adjust: 100%;
 }
   
-@media (min-width: var(--breakpoint-sm)) and (orientation: landscape) {
+@media (min-width: 30em) {
   body {
     font-size: var(--font-size-md);
   }
@@ -270,7 +270,7 @@ iframe {
   margin-inline: auto;
 }
   
-@media (min-width: var(--breakpoint-sm)) and (orientation: landscape) {
+@media (min-width: 30em {
   .container {
     max-inline-size: 75em;
   }
