@@ -45,11 +45,11 @@ Image without caption
 </figure>
 
 <figure>
-  <img src="https://picsum.photos/200/300" width="200" height="300" alt="placeholder image 200×300">
+  <img src="https://picsum.photos/500/500" width="500" height="500" alt="placeholder image 500×500">
 </figure>
 
 <figure>
-  <img src="https://picsum.photos/200/400" width="200" height="400" alt="placeholder image 300×400">
+  <img src="https://picsum.photos/200/400" width="200" height="400" alt="placeholder image 200×400">
   <figcaption>Placeholder image 200×400</figcaption>
 </figure>
 
@@ -75,7 +75,7 @@ Image without caption
 </figure>
 
 <figure>
-  <iframe src="https://www.youtube.com/embed/kdXfrMObAlA" width="1080" height="1080" frameborder="0" style="aspect-ratio: 1/1;">
+  <iframe src="https://www.youtube.com/embed/kdXfrMObAlA" width="1080" height="1080" frameborder="0" style="aspect-ratio: 4/3;">
   </iframe>
   <figcaption>With caption</figcaption>
 </figure>
