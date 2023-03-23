@@ -222,6 +222,7 @@ thead th {
 }
 
 figure {
+  margin-inline: 0;
   margin-block-end: 1em;
 }
 
