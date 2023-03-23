@@ -105,8 +105,10 @@ body {
   line-height: var(--line-height-4);
   color: var(--ink-1);
   background-color: var(--bg-1);
+}
   
-  @media (min-width: var(--breakpoint-sm)) {
+@media (min-width: var(--breakpoint-sm)) {
+  body {
     font-size: calc(var(--font-size) * 1.5 );
   }
 }
@@ -221,12 +223,14 @@ thead th {
 
 /* - */
 .container {
-  max-width: 480px;
+  max-width: 45ch;
   padding-inline: var(--spacer-1);
   margin-inline: auto;
+}
   
-  @media (min-width: var(--breakpoint-sm)) {
-    max-width: 720px;
+@media (min-width: var(--breakpoint-sm)) {
+  .container {
+    max-width: 75ch;
   }
 }
 
