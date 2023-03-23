@@ -214,11 +214,17 @@ th {
   border-color: inherit;
   border-style: solid;
   border-width: 0px;
+  /*border-block-end-width: 1px;*/
+}
+
+tbody tr {
+  border-color: inherit;
+  border-style: solid;
+  border-width: 0px;
   border-block-end-width: 1px;
 }
 
-td:last-child,
-th:last-child {
+tbody tr:last-child {
   border-width: 0px;
   border-block-end-width: 0px;
 }
