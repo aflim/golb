@@ -261,14 +261,14 @@ iframe {
 
 /* - */
 .container {
-  max-width: 45ch;
+  max-inline-size: 45ch;
   padding-inline: var(--spacer-1);
   margin-inline: auto;
 }
   
 @media (min-width: var(--breakpoint-sm)) {
   .container {
-    max-width: 75ch;
+    max-inline-size: 75ch;
   }
 }
 
