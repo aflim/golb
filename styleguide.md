@@ -76,7 +76,7 @@ Image without caption
 
 ## Embedded video with iframe
 <figure>
-  <iframe src="https://www.youtube.com/embed/kdXfrMObAlA" width="1600" height="900">
+  <iframe src="https://www.youtube.com/embed/kdXfrMObAlA" width="1600" height="900" frameborder="0" allowfullscreen>
   </iframe>
 </figure>
 
