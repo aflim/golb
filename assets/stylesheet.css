@@ -224,13 +224,13 @@ td:last-child {
 tr {
   border-color: inherit;
   border-style: solid;
-  border-width: 0px;
-  border-block-end-width: 1px;
+  border-width: 0;
+  border-inline-end-width: 1px;
 }
 
 tr:last-child {
   border-width: 0;
-  border-block-end-width: 0;
+  border-inline-end-width: 0;
 }
 
 th {
