@@ -107,6 +107,8 @@ body {
   line-height: var(--line-height-4);
   color: var(--ink-1);
   background-color: var(--bg-1);
+  -webkit-text-size-adjust: 100%;
+      -ms-text-size-adjust: 100%;
 }
   
 @media (min-width: var(--breakpoint-sm)) and (orientation: landscape) {
