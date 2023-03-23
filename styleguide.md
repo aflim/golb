@@ -75,12 +75,12 @@ Image without caption
 </figure>
 
 ## Embedded video with iframe
-<figure style="aspect-ratio: auto;">
+<figure>
   <iframe src="https://www.youtube.com/embed/kdXfrMObAlA" width="1600" height="900" frameborder="0" allowfullscreen>
   </iframe>
 </figure>
 
-<figure style="aspect-ratio: 1/1;">
+<figure>
   <iframe src="https://www.youtube.com/embed/kdXfrMObAlA" frameborder="0">
   </iframe>
   <figcaption>With caption</figcaption>
