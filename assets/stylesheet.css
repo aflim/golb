@@ -111,7 +111,7 @@ body {
       -ms-text-size-adjust: 100%;
 }
   
-@media (min-width: 30em) {
+@media (min-width: 30rem) {
   body {
     font-size: 22px;
   }
@@ -265,14 +265,14 @@ iframe {
 
 /* - */
 .container {
-  max-inline-size: 45em;
+  max-inline-size: 45rem;
   padding-inline: var(--spacer-1);
   margin-inline: auto;
 }
   
-@media (min-width: 30em {
+@media (min-width: 30rem {
   .container {
-    max-inline-size: 75em;
+    max-inline-size: 65rem;
   }
 }
 
