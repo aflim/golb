@@ -35,11 +35,6 @@ Vivamus sagittis lacus vel augue rutrum faucibus dolor auctor. Duis mollis, est 
 
 ## Images
 <figure>
-  <img src="https://picsum.photos/200/400" width="200" height="400" alt="placeholder image 200×400">
-  <figcaption>Placeholder image 200×400</figcaption>
-</figure>
-
-<figure>
   <img src="https://picsum.photos/300/400" width="300" height="400" alt="placeholder image 300×400">
   <figcaption>Placeholder image 300×400</figcaption>
 </figure>
@@ -66,7 +61,13 @@ Vivamus sagittis lacus vel augue rutrum faucibus dolor auctor. Duis mollis, est 
 </figure>
 
 <figure>
-  <iframe src="https://www.youtube.com/embed/kdXfrMObAlA" width="1080" height="1080" frameborder="0" style="aspect-ratio: 4/3;">
+  <iframe src="https://www.youtube.com/embed/kdXfrMObAlA" width="800" height="600" frameborder="0" style="aspect-ratio: 4/3;">
+  </iframe>
+  <figcaption>With caption</figcaption>
+</figure>
+
+<figure>
+  <iframe src="https://www.youtube.com/embed/kdXfrMObAlA" width="1080" height="1080" frameborder="0" style="aspect-ratio: 1/1;">
   </iframe>
   <figcaption>With caption</figcaption>
 </figure>
