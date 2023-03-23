@@ -33,6 +33,8 @@ Vivamus sagittis lacus vel augue rutrum faucibus dolor auctor. Duis mollis, est 
   <dd>The programming language used to build advanced Web sites and applications</dd>
 </dl>
 
+## Images
+
 Image without caption
 <figure>
   <img src="https://picsum.photos/200/200" alt="placeholder image 200×200">
@@ -70,6 +72,16 @@ Image without caption
 <figure>
   <img src="https://picsum.photos/900/1600" alt="placeholder image 900×1600" width="900" height="1600">
   <figcaption>Placeholder image 900×1600</figcaption>
+</figure>
+
+## Embedded video with iframe
+<figure>
+  <iframe src="https://youtu.be/kdXfrMObAlA" width="1600" height="900">
+</figure>
+
+<figure>
+  <iframe src="https://youtu.be/kdXfrMObAlA" width="300" height="400">
+  <figcaption>With caption</figcaption>
 </figure>
 
 ## Horizontal rule
