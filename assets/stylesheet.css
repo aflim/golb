@@ -226,13 +226,13 @@ figure {
 }
 
 blockquote {
-  padding-inline: .75em;
-  margin-inline-start: -1em;
+  padding-inline: 1em;
+  margin-inline-start: 1em;
   margin-block-end: 1em;
   font-size: .9em;
   line-height: 1.3;
   color: var(--ink-2);
-  border-inline-start: .25em solid var(--ink-3);
+  border-inline-start: .15em solid var(--ink-3);
 }
 /*
 blockquote p:last-child {
