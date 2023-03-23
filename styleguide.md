@@ -33,6 +33,16 @@ Vivamus sagittis lacus vel augue rutrum faucibus dolor auctor. Duis mollis, est 
   <dd>The programming language used to build advanced Web sites and applications</dd>
 </dl>
 
+<figure>
+  <img src="https://picsum.photos/200/200" alt="placeholder image 200×200">
+</figure>
+
+Image with caption
+<figure>
+  <img src="https://picsum.photos/200/300" alt="placeholder image 200×300">
+  <figcaption>Placeholder image 200×300</figcaption>
+</figure>
+
 ## Horizontal rule
 <hr>
 Vivamus sagittis lacus vel augue rutrum faucibus dolor auctor. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros.
