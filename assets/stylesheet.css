@@ -227,8 +227,9 @@ figure {
 }
 
 blockquote {
-  padding-inline: 1em;
-  margin-inline-start: 0;
+  padding-inline-start: 1em;
+  padding-inline-end: 0;
+  margin-inline: 0;
   margin-block-end: 1em;
   font-size: .9em;
   line-height: 1.3;
