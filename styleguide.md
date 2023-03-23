@@ -86,7 +86,7 @@ Image without caption
 </figure>
 
 <figure>
-  <iframe src="https://www.youtube.com/embed/kdXfrMObAlA" width="1080" height="1080" frameborder="0">
+  <iframe src="https://www.youtube.com/embed/kdXfrMObAlA" width="1080" height="1080" frameborder="0" style="aspect-ratio: 1/1;">
   </iframe>
   <figcaption>With caption</figcaption>
 </figure>
