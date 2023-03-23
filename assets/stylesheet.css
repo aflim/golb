@@ -213,7 +213,7 @@ th {
   padding-block: .5em;
   border-color: inherit;
   border-style: solid;
-  border-width: 0;
+  border-width: 1px;
   border-block-end-width: 1px;
 }
 
