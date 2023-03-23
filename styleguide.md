@@ -34,20 +34,6 @@ Vivamus sagittis lacus vel augue rutrum faucibus dolor auctor. Duis mollis, est 
 </dl>
 
 ## Images
-
-Image without caption
-<figure>
-  <img src="https://picsum.photos/300/200" width="300" height="200" alt="placeholder image 300×200">
-</figure>
-
-<figure>
-  <img src="https://picsum.photos/300/300" width="300" height="300" alt="placeholder image 300×300">
-</figure>
-
-<figure>
-  <img src="https://picsum.photos/500/500" width="500" height="500" alt="placeholder image 500×500">
-</figure>
-
 <figure>
   <img src="https://picsum.photos/200/400" width="200" height="400" alt="placeholder image 200×400">
   <figcaption>Placeholder image 200×400</figcaption>
@@ -61,6 +47,11 @@ Image without caption
 <figure>
   <img src="https://picsum.photos/400/300" width="400" height="300" alt="placeholder image 400×300">
   <figcaption>Placeholder image 400×300</figcaption>
+</figure>
+
+<figure>
+  <img src="https://picsum.photos/500/500" width="500" height="500" alt="placeholder image 500×500">
+  <figcaption>Placeholder image 500×500</figcaption>
 </figure>
 
 <figure>
