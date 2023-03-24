@@ -295,7 +295,11 @@ pre code {
 }
 
 .highlight pre {
-  margin: 1em;
+  padding: .5em;
+}
+
+pre .highlight {
+  margin: 0;
 }
 
 .rouge-table td,
