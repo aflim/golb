@@ -279,7 +279,6 @@ pre {
   display: block;
   margin-block-start: 0;
   margin-block-end: 1em;
-  font-size: 90%;
   overflow: auto;
 }
 
@@ -297,20 +296,18 @@ pre code {
 }
 
 .highlight pre {
-  margin-block-end: 1em;
+  margin-block-end: 0;
 }
 
 .highlight .highlight {
   padding: 0;
 }
 
+.lineo,
 .rouge-table {
-  font-size: 100%;
-}
-
-.lineo {
   padding: 0;
   margin: 0;
+  font-size: 100%;
 }
 
 .rouge-table td,
