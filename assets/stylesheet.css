@@ -287,6 +287,7 @@ pre code {
 }
 
 .highlight {
+  padding: 1em;
   font-family: var(--font-monospace);
   font-size: .9em;
   color: var(--ink-3);
@@ -294,13 +295,8 @@ pre code {
   border-radius: var(--border-radius);
 }
 
-.highlight pre {
-  padding: 1em;
-}
-
-.highlight table {
-  padding: 0;
-  margin: 0;
+.highlight .highlight {
+  font-size: 100%;
 }
 
 .rouge-table td,
