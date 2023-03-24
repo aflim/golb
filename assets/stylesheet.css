@@ -269,7 +269,7 @@ iframe {
 code {
   padding: .10em;
   font-family: var(--font-monospace);
-  font-size: 90%;
+  font-size: 85%;
   color: var(--ink-3);
   background-color: var(--bg-3);
   border-radius: var(--border-radius);
@@ -330,7 +330,7 @@ pre code {
   
 @media (min-width: 30rem {
   .container {
-    max-inline-size: 65rem;
+    max-inline-size: 60rem;
   }
 }
 
