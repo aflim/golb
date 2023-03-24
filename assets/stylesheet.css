@@ -276,7 +276,7 @@ code {
 }
 
 pre {
-  display: block;
+  display: inline-block;
   margin-block-start: 0;
   margin-block-end: 1em;
   overflow: auto;
@@ -300,11 +300,11 @@ pre code {
 .highlight pre {
   margin-block-end: 0;
 }
-
+/*
 .highlight .highlight {
   padding: 0;
 }
-
+*/
 .rouge-table,
 .lineo {
   padding: 0;
