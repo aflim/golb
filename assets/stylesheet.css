@@ -276,13 +276,9 @@ code {
 }
 
 pre {
+  display: block;
   margin: 0;
   overflow: auto;
-}
-
-pre code {
-  padding: .25em;
-  
 }
 
 .highlight {
@@ -292,6 +288,10 @@ pre code {
   color: var(--ink-3);
   background-color: var(--bg-3);
   border-radius: var(--border-radius);
+}
+
+.highlight pre {
+  margin-block-end: 0;
 }
 
 .rouge-table td,
