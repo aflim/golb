@@ -15,12 +15,12 @@
   --ink-light-3: hsl(var(--hue) 30% 30%);
   
   /* dark */
-  --bg-dark-1: hsl(var(--hue) 15% 5%);
-  --bg-dark-2: hsl(var(--hue) 15% 10%);
-  --bg-dark-3: hsl(var(--hue) 15% 15%);
-  --ink-dark-1: hsl(var(--hue) 20% 80%);
-  --ink-dark-2: hsl(var(--hue) 15% 70%);
-  --ink-dark-3: hsl(var(--hue) 10% 60%);
+  --bg-dark-1: 0 0% 7%);
+  --bg-dark-2: 0 0% 15%);
+  --bg-dark-3: 0 0 20%);
+  --ink-dark-1: 0 0% 80%);
+  --ink-dark-2: 0 0% 70%);
+  --ink-dark-3: 0 0% 60%);
   
   /* base */
   --font-size: 16px;
