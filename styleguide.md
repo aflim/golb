@@ -45,8 +45,7 @@ Vivamus sagittis lacus vel augue rutrum faucibus dolor auctor. Duis mollis, est 
 
 ## Images
 <figure>
-  <img src="https://picsum.photos/300/400" width="300" height="400" alt="placeholder image 300×400">
-  <figcaption>Placeholder image 300×400</figcaption>
+  <img src="https://picsum.photos/400/300" width="400" height="300" alt="placeholder image 400×300">
 </figure>
 
 <figure>
@@ -54,30 +53,14 @@ Vivamus sagittis lacus vel augue rutrum faucibus dolor auctor. Duis mollis, est 
   <figcaption>Placeholder image 400×300</figcaption>
 </figure>
 
-<figure>
-  <img src="https://picsum.photos/500/500" width="500" height="500" alt="placeholder image 500×500">
-  <figcaption>Placeholder image 500×500</figcaption>
-</figure>
-
-<figure>
-  <img src="https://picsum.photos/1600/900" alt="placeholder image 1600×900" width="1600" height="900">
-  <figcaption>Placeholder image 1600×900</figcaption>
-</figure>
-
 ## Embedded video with iframe
 <figure>
-  <iframe src="https://www.youtube.com/embed/kdXfrMObAlA" width="1600" height="900" frameborder="0" allowfullscreen style="aspect-ratio: 16/9;">
+  <iframe src="https://www.youtube.com/embed/kdXfrMObAlA" width="720" height="480" frameborder="0" allowfullscreen style="aspect-ratio: 16/9;">
   </iframe>
 </figure>
 
 <figure>
-  <iframe src="https://www.youtube.com/embed/kdXfrMObAlA" width="800" height="600" frameborder="0" style="aspect-ratio: 4/3;">
-  </iframe>
-  <figcaption>With caption</figcaption>
-</figure>
-
-<figure>
-  <iframe src="https://www.youtube.com/embed/kdXfrMObAlA" width="1080" height="1080" frameborder="0" style="aspect-ratio: 1/1;">
+  <iframe src="https://www.youtube.com/embed/kdXfrMObAlA" width="720" height="480" frameborder="0" style="aspect-ratio: 16/9;">
   </iframe>
   <figcaption>With caption</figcaption>
 </figure>
@@ -161,18 +144,6 @@ var adder = new Function("a", "b", "return a + b");
 adder(2, 6);
 // > 8
 {% endhighlight %}
-
-With backtick code
-```
-// Example can be run directly in your JavaScript console
-
-// Create a function that takes two arguments and returns the sum of those arguments
-var adder = new Function("a", "b", "return a + b");
-
-// Call the function
-adder(2, 6);
-// > 8
-```
 
 You may also optionally show code snippets with line numbers. Add `linenos` to the Rouge tags.
 
