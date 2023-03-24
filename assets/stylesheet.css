@@ -277,12 +277,12 @@ code {
 
 pre {
   display: block;
-  margin: 0;
+  margin-block-end: 1em;
   overflow: auto;
 }
 
 .highlight {
-  padding: .5em;
+  padding: 1em;
   font-family: var(--font-monospace);
   font-size: .9em;
   color: var(--ink-3);
@@ -292,6 +292,11 @@ pre {
 
 .highlight pre {
   margin-block-end: 0;
+}
+
+.rouge-table {
+  padding: 0;
+  margin: 0;
 }
 
 .rouge-table td,
