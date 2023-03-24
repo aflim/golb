@@ -303,7 +303,8 @@ pre code {
   padding: 0;
 }
 
-.rouge-table {
+.rouge-table,
+.lineo {
   padding: 0;
   margin: 0;
   font-size: 100%;
