@@ -10,17 +10,23 @@
   --bg-light-1: hsl(var(--hue) 5% 75%);
   --bg-light-2: hsl(var(--hue) 10% 80%);
   --bg-light-3: hsl(var(--hue) 10% 90%);
-  --ink-light-1: hsl(var(--hue) 50% 10%);
-  --ink-light-2: hsl(var(--hue) 40% 20%);
-  --ink-light-3: hsl(var(--hue) 30% 30%);
+  --ink-on-light-1: hsl(var(--hue) 50% 10%);
+  --ink-on-light-2: hsl(var(--hue) 40% 20%);
+  --ink-on-light-3: hsl(var(--hue) 30% 30%);
+  --border-on-light-1: hsl(192 8.33% 47.06%);
+  --border-on-light-2: hsl(192.63 16.96% 43.92%);
+  --border-on-light-3: hsl(193.71 85.37% 91.96%);
   
   /* dark */
   --bg-dark-1: hsl(194.12 89.47% 3.73%);
   --bg-dark-2: hsl(192.73 84.62% 7.65%);
   --bg-dark-3: hsl(194.12 86.44% 11.57%);
-  --ink-dark-1: hsl(192.63 16.96% 43.92%);
-  --ink-dark-2: hsl(193.71 85.37% 91.96%);
-  --ink-dark-3: hsl(192 8.33% 47.06%);
+  --ink-on-dark-1: hsl(192.63 16.96% 43.92%);
+  --ink-on-dark-2: hsl(193.71 85.37% 91.96%);
+  --ink-on-dark-3: hsl(192 8.33% 47.06%);
+  --border-on-dark-1: hsl(192 8.33% 47.06%);
+  --border-on-dark-2: hsl(192.63 16.96% 43.92%);
+  --border-on-dark-3: hsl(193.71 85.37% 91.96%);
   
   /* base */
   --font-size: 16px;
@@ -62,9 +68,12 @@
   --bg-1: var(--bg-light-1);
   --bg-2: var(--bg-light-2);
   --bg-3: var(--bg-light-3);
-  --ink-1: var(--ink-light-1);
-  --ink-2: var(--ink-light-2);
-  --ink-3: var(--ink-light-3);
+  --ink-1: var(--ink-on-light-1);
+  --ink-2: var(--ink-on-light-2);
+  --ink-3: var(--ink-on-light-3);
+  --border-1: var(--border-on-light-1);
+  --border-2: var(--border-on-light-2);
+  --border-3: var(--border-on-light-3);
 }
 
 /* dark color scheme via browser/os */
@@ -74,9 +83,12 @@
     --bg-1: var(--bg-dark-1);
     --bg-2: var(--bg-dark-2);
     --bg-3: var(--bg-dark-3);
-    --ink-1: var(--ink-dark-1);
-    --ink-2: var(--ink-dark-2);
-    --ink-3: var(--ink-dark-3);
+    --ink-1: var(--ink-on-dark-1);
+    --ink-2: var(--ink-on-dark-2);
+    --ink-3: var(--ink-on-dark-3);
+    --border-1: var(--border-on-dark-1);
+    --border-2: var(--border-on-dark-2);
+    --border-3: var(--border-on-dark-3);
   }
 }
 
@@ -86,9 +98,12 @@
   --bg-1: var(--bg-light-1);
   --bg-2: var(--bg-light-2);
   --bg-3: var(--bg-light-3);
-  --ink-1: var(--ink-light-1);
-  --ink-2: var(--ink-light-2);
-  --ink-3: var(--ink-light-3);
+  --ink-1: var(--ink-on-light-1);
+  --ink-2: var(--ink-on-light-2);
+  --ink-3: var(--ink-on-light-3);
+  --border-1: var(--border-on-light-1);
+  --border-2: var(--border-on-light-2);
+  --border-3: var(--border-on-light-3);
 }
 
 /* dark color scheme via data attribut */
@@ -97,9 +112,12 @@
   --bg-1: var(--bg-dark-1);
   --bg-2: var(--bg-dark-2);
   --bg-3: var(--bg-dark-3);
-  --ink-1: var(--ink-dark-1);
-  --ink-2: var(--ink-dark-2);
-  --ink-3: var(--ink-dark-3);
+  --ink-1: var(--ink-on-dark-1);
+  --ink-2: var(--ink-on-dark-2);
+  --ink-3: var(--ink-on-dark-3);
+  --border-1: var(--border-on-dark-1);
+  --border-2: var(--border-on-dark-2);
+  --border-3: var(--border-on-dark-3);
 }
 
 /* base style */
@@ -139,10 +157,9 @@ h4,
 h5,
 h6 {
   margin-block-start: 0;
-  margin-block-end: .5em;
+  margin-block-end: .25em;
   line-height: var(--line-height-2);
   font-weight: 700;
-  color: var(--ink-2);
 }
 
 h1 {
@@ -200,14 +217,14 @@ hr {
   margin-block: var(--spacer-2);
   margin-inline: 0;
   border: 0;
-  border-block-start: 1px solid var(--ink-2);
+  border-block-start: 1px solid var(--border-1);
 }
 
 table {
   width: 100%;
   margin-block-end: 1em;
   border-collapse: collapse;
-  border: 0 solid var(--ink-3);
+  border: 0 solid var(--border-1);
 }
 
 td,
@@ -248,7 +265,7 @@ blockquote {
   font-size: .95em;
   line-height: 1.3;
   color: var(--ink-2);
-  border-inline-start: .20em solid var(--ink-3);
+  border-inline-start: .20em solid var(--border-2);
 }
 
 blockquote p {
@@ -270,8 +287,8 @@ code {
   padding: .10em;
   font-family: var(--font-monospace);
   font-size: 85%;
-  color: var(--ink-3);
-  background-color: var(--bg-3);
+  color: var(--ink-2);
+  background-color: var(--bg-2);
   border-radius: var(--border-radius);
 }
 
@@ -291,7 +308,7 @@ pre code {
 .highlight {
   padding: 1em;
   margin-block-end: 1em;
-  background-color: var(--bg-3);
+  background-color: var(--bg-2);
   border-radius: var(--border-radius);
 }
 
