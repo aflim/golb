@@ -267,6 +267,7 @@ iframe {
 }
 
 code {
+  padding: .15em;
   font-family: var(--font-monospace);
   font-size: .9em;
   color: var(--ink-3);
@@ -275,9 +276,26 @@ code {
 }
 
 pre {
-  margin-block-start: 0;
-  margin-block-end: 1em;
+  margin: 0;
   overflow: auto;
+}
+
+pre code {
+  padding: .25em;
+  font-family: var(--font-monospace);
+  font-size: .9em;
+  color: var(--ink-3);
+  background-color: var(--bg-3);
+  border-radius: var(--border-radius);
+}
+
+.rouge-table {
+  margin: 0;
+}
+
+.rouge-table td,
+.rouge-table th {
+  border: 0;
 }
 
 /* - */
