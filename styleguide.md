@@ -11,6 +11,15 @@ Vivamus sagittis lacus vel augue rutrum faucibus dolor auctor. Duis mollis, est 
 ## Paragraph
 Vivamus sagittis lacus vel augue rutrum faucibus dolor auctor. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros.
 
+## Text formatting
+* *Italic text* use `<em>`
+* **Bold text** use `<strong>`
+* <mark>Highlighted text</mark> use `<mark>`
+* ~~Deleted textus~~ use `<del>`
+* Abbreviation like <abbr>html</abbr> use `<abbr>`
+* Inline code like `<!doctype html>` use `<code>`
+* Citing use `<cite>`
+
 ## Ordered lists
 1. item one
 2. Vivamus sagittis lacus vel augue rutrum faucibus dolor auctor. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros.
