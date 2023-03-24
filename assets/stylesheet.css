@@ -297,7 +297,7 @@ pre code {
 }
 
 .highlight pre {
-  margin-block-end: 0;
+  margin-block-end: 1em;
 }
 
 .highlight .highlight {
