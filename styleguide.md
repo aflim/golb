@@ -27,8 +27,28 @@ Vivamus sagittis lacus vel augue rutrum faucibus dolor auctor. Duis mollis, est 
 
 ## Unordered lists
 * item one
+* {% highlight js linenos %}
+// Example can be run directly in your JavaScript console
+
+// Create a function that takes two arguments and returns the sum of those arguments
+var adder = new Function("a", "b", "return a + b");
+
+// Call the function
+adder(2, 6);
+// > 8
+{% endhighlight %}
 * Vivamus sagittis lacus vel augue rutrum faucibus dolor auctor. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros.
 * Vivamus sagittis lacus vel augue rutrum faucibus dolor auctor. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros.
+* {% highlight js linenos %}
+// Example can be run directly in your JavaScript console
+
+// Create a function that takes two arguments and returns the sum of those arguments
+var adder = new Function("a", "b", "return a + b");
+
+// Call the function
+adder(2, 6);
+// > 8
+{% endhighlight %}
 
 ## Definition list
 <dl>
