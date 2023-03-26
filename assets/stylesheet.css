@@ -311,12 +311,12 @@ pre code {
   background-color: var(--bg-2);
   border-radius: var(--border-radius);
 }
-/*
+
 .highlight pre {
   padding-block-end: 1em;
   margin-block-end: 0;
 }
-*/
+
 .highlight .highlight {
   padding: 0;
 }
