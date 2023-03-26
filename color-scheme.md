@@ -5,9 +5,9 @@ title: Color scheme
 
 <div>
   <section class="grid">
-    <div class="box bg-1 ink-1">1</div>
-    <div class="box bg-2 ink-2">2</div>
-    <div class="box bg-3 ink-3">3</div>
+    <div class="box bg-1 ink-1" style="height: 200px;">1</div>
+    <div class="box bg-2 ink-2" style="height: 200px;">2</div>
+    <div class="box bg-3 ink-3" style="height: 200px;">3</div>
   </section>
   <section>
     <div class="ink-1">
