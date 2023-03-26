@@ -358,6 +358,10 @@ pre code {
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
 }
 
+.box {
+  min-block-size: 250px;
+}
+
 /* --- */
 .bg-1 {
   background-color: var(--bg-1);
