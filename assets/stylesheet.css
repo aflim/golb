@@ -308,7 +308,7 @@ pre code {
 .highlight {
   padding: 1em;
   margin-block-end: 1em;
-  background-color: var(--bg-2);
+  background-color: var(--bg-1);
   border-radius: var(--border-radius);
 }
 
