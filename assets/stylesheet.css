@@ -372,13 +372,13 @@ pre code {
 }
 
 .ink-1 {
-  background-color: var(--ink-1);
+  color: var(--ink-1);
 }
 
 .ink-2 {
-  background-color: var(--ink-2);
+  color: var(--ink-2);
 }
 
 .ink-3 {
-  background-color: var(--ink-3);
+  color: var(--ink-3);
 }
