@@ -298,13 +298,13 @@ pre {
   margin-block-end: 1em;
   overflow: auto;
 }
-/*
+
 pre code {
   padding: 0;
   background-color: transparent;
   border-radius: 0;
 }
-*/
+
 .highlight {
   padding: 1em;
   margin-block-end: 1em;
